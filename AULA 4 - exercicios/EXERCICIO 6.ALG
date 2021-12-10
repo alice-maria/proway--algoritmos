@@ -25,35 +25,35 @@ Inicio
    escreval("informe o numero B")
    leia(numeroB)
 
-   escreval("")
+escreval("")
 
-   escreval("Qual operação voce gostaria de realizar")
-   escreval("1-- SOMA")
-   escreval("2-- SUBTRAÇÃO")
-   escreval("3-- MULTIPLICAÇÃO")
-   escreval("4-- DIVISÃO")
-   leia(opcao)
+escreval("Qual operação voce gostaria de realizar")
+escreval("1-- SOMA")
+escreval("2-- SUBTRAÇÃO")
+escreval("3-- MULTIPLICAÇÃO")
+escreval("4-- DIVISÃO")
+leia(opcao)
 
-   escolha opcao
-   caso 1
-      escreval("SOMANDO ",numeroA," com ",numeroB," ...")
-      resultado <- numeroA + numeroB
-      escreval("Resultado = ",resultado)
-   caso 2
-      escreval("SUBTRAINDO ",numeroA," com ",numeroB," ...")
-      resultado <- numeroA - numeroB
-      escreval("Resultado = ",resultado)
-   caso 3
-      escreval("MULTIPLICANDO ",numeroA," com ",numeroB," ...")
-      resultado <- numeroA * numeroB
-      escreval("Resultado = ",resultado)
-   caso 4
-      escreval("DIVIDINDO ",numeroA," com ",numeroB," ...")
-      resultado <- numeroA / numeroB
-      escreval("Resultado = ",resultado)
-   outrocaso
-      escreval("por favor escolha um numero de 1 a 5")
-   fimescolha
+escolha opcao
+caso 1
+   escreval("SOMANDO ",numeroA," com ",numeroB," ...")
+   resultado <- numeroA + numeroB
+   escreval("Resultado = ",resultado)
+caso 2
+   escreval("SUBTRAINDO ",numeroA," com ",numeroB," ...")
+   resultado <- numeroA - numeroB
+   escreval("Resultado = ",resultado)
+caso 3
+   escreval("MULTIPLICANDO ",numeroA," com ",numeroB," ...")
+   resultado <- numeroA * numeroB
+   escreval("Resultado = ",resultado)
+caso 4
+   escreval("DIVIDINDO ",numeroA," com ",numeroB," ...")
+   resultado <- numeroA / numeroB
+   escreval("Resultado = ",resultado)
+outrocaso
+   escreval("por favor escolha um numero de 1 a 5")
+fimescolha
 
 
 
