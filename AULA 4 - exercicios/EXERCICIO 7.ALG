@@ -16,7 +16,7 @@ Inicio
    leia(numero)
    
    para contador de 1 ate numero passo 1 faca
-        escreval("repetindo de ",contador*100," ate ",quantidade)
+        escreval("repetindo de ",contador*100," ate ",numero)
    fimpara
    
    
