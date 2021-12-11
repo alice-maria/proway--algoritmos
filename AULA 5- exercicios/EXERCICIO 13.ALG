@@ -53,11 +53,11 @@ Inicio
    caso 3
       valorFinal <- valor + (valor * 0.06)
    caso 4
-      escreval("CERTO! Ao total ficaria ",valor*,1.12," reais")
+      escreval("CERTO! Ao total ficaria ",valor*1.12," reais")
    outrocaso
       escreval("POR FAVOR DIGITE UM NUMERO DE 1 A 4")
    fimescolha
 
-   escreval("OBRUGADO PELA PREFERENCIA!!!!!!!!!")
+   escreval(""CERTO! Ao total ficaria
 
 Fimalgoritmo
